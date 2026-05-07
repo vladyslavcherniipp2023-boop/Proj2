@@ -1,0 +1,50 @@
+{
+  "next_id": 6,
+  "movies": [
+    {
+      "id": 1,
+      "title": "TESTFILM1",
+      "year": 2020,
+      "genre": "Жахи",
+      "rating": 7.0,
+      "director": "Владислав Черній",
+      "description": "крутийфільмдлякрутих дуже"
+    },
+    {
+      "id": 2,
+      "title": "TESTFILM2",
+      "year": 2019,
+      "genre": "НЕ жахи",
+      "rating": 9.0,
+      "director": "Я",
+      "description": "123123"
+    },
+    {
+      "id": 3,
+      "title": "Впадлу Робити Лаби ужас",
+      "year": 2026,
+      "genre": "Автобіографічний",
+      "rating": 10.0,
+      "director": "Ях2",
+      "description": "отпусті"
+    },
+    {
+      "id": 4,
+      "title": "Inception",
+      "year": 2010,
+      "genre": "Sci-Fi",
+      "rating": 8.8,
+      "director": "Nolan",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "title": "Inception",
+      "year": 2010,
+      "genre": "Sci-Fi",
+      "rating": 8.8,
+      "director": "Nolan",
+      "description": ""
+    }
+  ]
+}
