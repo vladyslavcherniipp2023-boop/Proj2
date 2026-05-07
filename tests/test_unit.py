@@ -304,7 +304,3 @@ class TestStub:
         assert stats["avg_rating"] == 7.0
 
  
-class TestBrokenOnPurpose:
-    def test_broken_rating(self):
-        movie = make_movie(rating=8.8)
-        assert movie.rating == 999  # навмисна помилка для демонстрації CI
