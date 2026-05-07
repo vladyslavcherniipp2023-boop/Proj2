@@ -303,6 +303,8 @@ class TestStub:
         stats = svc.get_stats()
         assert stats["avg_rating"] == 7.0
 
- class TestBrokenOnPurpose:
+ 
+class TestBrokenOnPurpose:
     def test_broken_rating(self):
-        assert "FAILED" == "PASSED"  # навмисна помилка       
+        movie = make_movie(rating=8.8)
+        assert movie.rating == 999  # навмисна помилка для демонстрації CI
